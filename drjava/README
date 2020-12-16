@@ -70,3 +70,15 @@ To delete all compiled and unjarred class files (from jar files in
 drjava/lib and drjava/lib/buildlib), enter the command
 
   ant clean
+
+-------------------------------------------------------------------------------
+
+Linux
+
+Install JDK8
+
+sudo apt install openjdk-8-jdk
+
+Add the following line to .bashrc
+
+export JAVA8_HOME=/usr/lib/jvm/java-8-openjdk-amd64
